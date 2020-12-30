@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">794946276187-1jre79dg6ebdbe3uatjhoqlufrvbcklb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://examen1raunidad-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">794946276187</string>
+    <string name="google_api_key" translatable="false">AIzaSyDsOLXatgPLx1nyhuWz95mCM_POKV1DOKo</string>
+    <string name="google_app_id" translatable="false">1:794946276187:android:7e9088e349cc0a107d687e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDsOLXatgPLx1nyhuWz95mCM_POKV1DOKo</string>
+    <string name="google_storage_bucket" translatable="false">examen1raunidad.appspot.com</string>
+    <string name="project_id" translatable="false">examen1raunidad</string>
+</resources>
