@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/elementosRv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="81dp"
+                android:layout_height="119dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:src="@mipmap/ic_launcher" />
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:id="@+id/txt_descripcion"
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Descripcion"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txt_categoria"
+                    android:layout_width="247dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="Categoria"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txt_precio"
+                    android:layout_width="233dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="Precio"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txt_stock"
+                    android:layout_width="245dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="Stock"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLyt2"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "794946276187",
+    "firebase_url": "https://examen1raunidad-default-rtdb.firebaseio.com",
+    "project_id": "examen1raunidad",
+    "storage_bucket": "examen1raunidad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794946276187:android:7e9088e349cc0a107d687e",
+        "android_client_info": {
+          "package_name": "com.example.appexamen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794946276187-1jre79dg6ebdbe3uatjhoqlufrvbcklb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsOLXatgPLx1nyhuWz95mCM_POKV1DOKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794946276187-1jre79dg6ebdbe3uatjhoqlufrvbcklb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
